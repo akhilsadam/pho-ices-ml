@@ -8,7 +8,7 @@ plt.switch_backend(backend)
 
 def ecran(net, test_X, test_y, criterion, report, figsize=(15,5)):
     
-    outputs = net.forward(test_X)
+    outputs = net(test_X)
     loss = criterion(outputs, test_y)
 
     out =  np.argmax(outputs.detach().cpu().numpy(),axis=-1)
