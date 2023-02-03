@@ -17,7 +17,7 @@ class FFALayer(nn.Linear):
             torch.mm(x_direction, self.weight.T) +
             self.bias.unsqueeze(0))
 
-    def train(self, x_pos, x_neg, opt):
+    def train(self, x_pos, x_neg, opt, reg=lambda x,y: 0):
         # compute goodness for batches
         g_pos = self.forward(x_pos).pow(2).mean(1)
         g_neg = self.forward(x_neg).pow(2).mean(1)
@@ -25,7 +25,7 @@ class FFALayer(nn.Linear):
         # values larger (smaller) than the self.threshold.
         loss = torch.log(1 + torch.exp(torch.cat([
             -g_pos + self.threshold,
-            g_neg - self.threshold]))).mean()
+            g_neg - self.threshold])) + reg(g_pos,g_neg)).mean()
         opt.zero_grad()
         # this backward just computes the derivative and is not considered backpropagation.
         loss.backward()
