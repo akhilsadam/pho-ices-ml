@@ -1,0 +1,545 @@
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2022.11.28)  25 FEB 2023 03:14
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**FFA/memo/code//../out/memo.tex
+(./FFA/memo/code//../out/memo.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14>
+(/mnt/c/Users/sadam/Desktop/Research/PHO_ICES_ML/texstyles/iopart.cls
+Document Class: iopart 1996/06/10 v0.0 IOP Journals LaTeX article class
+(/mnt/c/Users/sadam/Desktop/Research/PHO_ICES_ML/texstyles/iopart12.clo
+File: iopart12.clo 1997/01/15 v1.0 LaTeX2e file (size option)
+)
+\c@jnl=\count163
+\c@section=\count164
+\c@subsection=\count165
+\c@subsubsection=\count166
+\c@paragraph=\count167
+\c@subparagraph=\count168
+\c@figure=\count169
+\c@table=\count170
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\indentedwidth=\skip49
+\mathindent=\dimen134
+\c@eqnval=\count171
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 105.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
+(/mnt/c/Users/sadam/Desktop/Research/PHO_ICES_ML/texstyles/extarrows.sty
+Package: extarrows 2020/03/12 v1.2.0 Some extensible arrows
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen137
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen138
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count172
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count173
+\leftroot@=\count174
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count175
+\DOTSCASE@=\count176
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen139
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count177
+\c@MaxMatrixCols=\count178
+\dotsspace@=\muskip16
+\c@parentequation=\count179
+\dspbrk@lvl=\count180
+\tag@help=\toks16
+\row@=\count181
+\column@=\count182
+\maxfields@=\count183
+\andhelp@=\toks17
+\eqnshift@=\dimen140
+\alignsep@=\dimen141
+\tagshift@=\dimen142
+\tagwidth@=\dimen143
+\totwidth@=\dimen144
+\lineht@=\dimen145
+\@envbody=\toks18
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks19
+
+
+! LaTeX Error: Command \equation* already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2858 }
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)) (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2020/01/17 v1.23 mathematical typesetting tools
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count184
+\calc@Bcount=\count185
+\calc@Adimen=\dimen146
+\calc@Bdimen=\dimen147
+\calc@Askip=\skip53
+\calc@Bskip=\skip54
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count186
+\calc@Cskip=\skip55
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count187
+\l_MT_multwidth_dim=\dimen148
+\origjot=\skip56
+\l_MT_shortvdotswithinadjustabove_dim=\dimen149
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen150
+\l_MT_above_intertext_sep=\dimen151
+\l_MT_below_intertext_sep=\dimen152
+\l_MT_above_shortintertext_sep=\dimen153
+\l_MT_below_shortintertext_sep=\dimen154
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/units/units.sty
+Package: units 1998/08/04 v0.9b Typesetting units
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/units/nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip57
+\L@UnitsRaiseTextstyle=\skip58
+\L@UnitsRaiseScriptstyle=\skip59
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tabto-ltx/tabto.sty
+Package: tabto 2018/12/28  v 1.4  Another tabbing mechanism
+\CurrentLineWidth=\dimen155
+\TabPrevPos=\dimen156
+)
+(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen157
+\captionmargin@=\dimen158
+\captionwidth=\dimen159
+\caption@tempdima=\dimen160
+\caption@indent=\dimen161
+\caption@parindent=\dimen162
+\caption@hangindent=\dimen163
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->\vskip \abovecaptionski
+p \begin {indented} \item []{\bf #1.} #2 \end {indented}\vskip \belowcaptionski
+p  on input line 1082.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count188
+\c@continuedfloat=\count189
+)
+\c@KVtest=\count190
+\sf@farskip=\skip60
+\sf@captopadj=\dimen164
+\sf@capskip=\skip61
+\sf@nearskip=\skip62
+\c@subfigure=\count191
+\c@subfigure@save=\count192
+\c@lofdepth=\count193
+\c@subtable=\count194
+\c@subtable@save=\count195
+\c@lotdepth=\count196
+\sf@top=\skip63
+\sf@bottom=\skip64
+) (/usr/share/texlive/texmf-dist/tex/latex/ntheorem/ntheorem.sty
+Style `ntheorem', Version 1.33 <2011/08/15>
+Package: ntheorem 2011/08/15 1.33
+\theorem@style=\toks20
+\theorem@@style=\toks21
+\theorembodyfont=\toks22
+\theoremnumbering=\toks23
+\theorempreskipamount=\skip65
+\theorempostskipamount=\skip66
+\theoremframepreskipamount=\skip67
+\theoremframepostskipamount=\skip68
+\theoreminframepreskipamount=\skip69
+\theoreminframepostskipamount=\skip70
+\theorem@preskip=\toks24
+\theorem@postskip=\toks25
+\theorem@framepreskip=\toks26
+\theorem@framepostskip=\toks27
+\theorem@inframepreskip=\toks28
+\theorem@inframepostskip=\toks29
+\theoremindent=\dimen165
+\theorem@indent=\dimen166
+\theoremrightindent=\dimen167
+\theorem@rightindent=\dimen168
+\theoremheaderfont=\toks30
+\theoremseparator=\toks31
+\theoremprework=\toks32
+\theorempostwork=\toks33
+\theoremsymbol=\toks34
+\qedsymbol=\toks35
+\theoremkeyword=\toks36
+\qedsymbol=\toks37
+\thm@topsep=\skip71
+\thm@topsepadd=\skip72
+)
+\c@prop=\count197
+ (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
+File: l3backend-xdvipdfmx.def 2020-02-03 L3 backend support: xdvipdfmx
+\g__graphics_track_int=\count198
+\l__pdf_internal_box=\box47
+\g__pdf_backend_object_int=\count199
+\g__pdf_backend_annotation_int=\count266
+)
+(FFA/memo/code//../out//memo.aux)
+\openout1 = `memo.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
+0.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+LaTeX Warning: Citation `FFA23' on page 1 undefined on input line 30.
+
+File: FFA/memo/code//../plots/ffasup.pdf Graphic file (type pdf)
+<use FFA/memo/code//../plots/ffasup.pdf>
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+
+ []
+
+[1
+
+]
+
+LaTeX Warning: Citation `FFA23' on page 2 undefined on input line 64.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--74
+
+ []
+
+
+! Package amsmath Error: Extra & on this line.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86 ...xlongequal{\text{desired}} 1 \end{alignat}
+                                                  
+\An extra & here is so disastrous that you should probably exit
+ and fix things up. 
+
+
+! Package amsmath Error: Extra & on this line.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86 ...xlongequal{\text{desired}} 1 \end{alignat}
+                                                  
+\An extra & here is so disastrous that you should probably exit
+ and fix things up. 
+
+
+! Package amsmath Error: Extra & on this line.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86 ...xlongequal{\text{desired}} 1 \end{alignat}
+                                                  
+\An extra & here is so disastrous that you should probably exit
+ and fix things up. 
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.86 ...xlongequal{\text{desired}} 1 \end{alignat}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.86 ...xlongequal{\text{desired}} 1 \end{alignat}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.86 ...xlongequal{\text{desired}} 1 \end{alignat}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.86 ...xlongequal{\text{desired}} 1 \end{alignat}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.86 ...xlongequal{\text{desired}} 1 \end{alignat}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.86 ...xlongequal{\text{desired}} 1 \end{alignat}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Misplaced \omit.
+\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
+                                                  \kern -\alignsep@ \iftag@ ...
+l.86 ...xlongequal{\text{desired}} 1 \end{alignat}
+                                                  
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
+                                                  \kern -\alignsep@ \iftag@ ...
+l.86 ...xlongequal{\text{desired}} 1 \end{alignat}
+                                                  
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\math@cr@@@ ...@ \@ne \add@amps \maxfields@ \omit 
+                                                  \kern -\alignsep@ \iftag@ ...
+l.86 ...xlongequal{\text{desired}} 1 \end{alignat}
+                                                  
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+[2] [3]
+
+LaTeX Warning: Citation `FFA23' on page 4 undefined on input line 150.
+
+File: FFA/memo/code//../plots/lfunc0.pdf Graphic file (type pdf)
+<use FFA/memo/code//../plots/lfunc0.pdf>
+File: FFA/memo/code//../plots/lfunc20.pdf Graphic file (type pdf)
+<use FFA/memo/code//../plots/lfunc20.pdf>
+File: FFA/memo/code//../plots/lfunc30.pdf Graphic file (type pdf)
+<use FFA/memo/code//../plots/lfunc30.pdf>
+
+Overfull \hbox (55.62582pt too wide) in paragraph at lines 164--175
+ [][]| []| [] 
+ []
+
+File: FFA/memo/code//../plots/lfunc1.pdf Graphic file (type pdf)
+<use FFA/memo/code//../plots/lfunc1.pdf>
+File: FFA/memo/code//../plots/lfunc21.pdf Graphic file (type pdf)
+<use FFA/memo/code//../plots/lfunc21.pdf>
+File: FFA/memo/code//../plots/lfunc31.pdf Graphic file (type pdf)
+<use FFA/memo/code//../plots/lfunc31.pdf>
+
+Overfull \hbox (55.62582pt too wide) in paragraph at lines 185--196
+ [][]| []| [] 
+ []
+
+File: FFA/memo/code//../plots/lfunc2.pdf Graphic file (type pdf)
+<use FFA/memo/code//../plots/lfunc2.pdf>
+File: FFA/memo/code//../plots/lfunc22.pdf Graphic file (type pdf)
+<use FFA/memo/code//../plots/lfunc22.pdf>
+File: FFA/memo/code//../plots/lfunc32.pdf Graphic file (type pdf)
+<use FFA/memo/code//../plots/lfunc32.pdf>
+
+Overfull \hbox (55.62582pt too wide) in paragraph at lines 206--217
+ [][]| []| [] 
+ []
+
+
+LaTeX Warning: Citation `MNIST' on page 4 undefined on input line 226.
+
+[4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 235--250
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--255
+
+ []
+
+File: FFA/memo/plots/DNN.pdf Graphic file (type pdf)
+<use FFA/memo/plots/DNN.pdf>
+File: FFA/memo/plots/pFFA0.pdf Graphic file (type pdf)
+<use FFA/memo/plots/pFFA0.pdf>
+File: FFA/memo/plots/pFFA1.pdf Graphic file (type pdf)
+<use FFA/memo/plots/pFFA1.pdf>
+File: FFA/memo/plots/FFA0_0.pdf Graphic file (type pdf)
+<use FFA/memo/plots/FFA0_0.pdf>
+File: FFA/memo/plots/FFA0_1.pdf Graphic file (type pdf)
+<use FFA/memo/plots/FFA0_1.pdf>
+File: FFA/memo/plots/FFA1_0.pdf Graphic file (type pdf)
+<use FFA/memo/plots/FFA1_0.pdf>
+File: FFA/memo/plots/FFA1_1.pdf Graphic file (type pdf)
+<use FFA/memo/plots/FFA1_1.pdf>
+File: FFA/memo/plots/FFA1_2.pdf Graphic file (type pdf)
+<use FFA/memo/plots/FFA1_2.pdf>
+File: FFA/memo/plots/FFA0_2.pdf Graphic file (type pdf)
+<use FFA/memo/plots/FFA0_2.pdf>
+File: FFA/memo/plots/FFA1_3.pdf Graphic file (type pdf)
+<use FFA/memo/plots/FFA1_3.pdf>
+No file memo.bbl.
+\tf@thm=\write3
+\openout3 = `memo.thm'.
+
+[6] [7] [8] [9] (FFA/memo/code//../out/memo.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4603 strings out of 481804
+ 70214 string characters out of 5937875
+ 321171 words of memory out of 5000000
+ 21521 multiletter control sequences out of 15000+600000
+ 539682 words of font info for 62 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 50i,16n,51p,245b,436s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on FFA/memo/code//../out/memo.pdf (9 pages).

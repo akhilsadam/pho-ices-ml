@@ -2,6 +2,7 @@
 import torch
 import torch.optim as optim
 import numpy as np
+import math
 from tqdm import tqdm
 
 class dojo:
@@ -36,17 +37,19 @@ class dojo:
             
         return learning_rate_decay, batch_size
 
-    def train(self, net, train_X, train_y, **kwargs):
+    def train(self, net, train_X, train_y, constraint=None, **kwargs):
         learning_rate_decay, batch_size = self.init_rate(**kwargs)
         optimizer = self.optimizer_lambda(net.parameters())
         scheduler = torch.optim.lr_scheduler.LambdaLR(optimizer, lr_lambda=[learning_rate_decay,])
-        
+
         losses = []
         sizes = []
         miloss = []
         mix = []
         rl = []
         n = train_X.shape[0]
+        outs = (None, None)
+        ro = bool(constraint)
         for epoch in tqdm(range(self.epochs)): 
             # shuffle
             idx = torch.randperm(train_X.shape[0])
@@ -61,21 +64,31 @@ class dojo:
 
                 # zero the parameter gradients
                 optimizer.zero_grad()
-                
+
                 # forward + backward + optimize
-                ls = net.train(train_X[i:i+cbatch_size], train_y[i:i+cbatch_size], optimizer, **kwargs)
+                inp = train_X[i:i+cbatch_size]
+
+                if ro:
+                    inp = torch.concatenate((inp,constraint(inp,outs[1],(cbatch_size,net.sizes[0]-train_X[0].size(0)))),dim=1)
+
+                outs = net.train(inp, train_y[i:i+cbatch_size], optimizer,return_outputs=ro, **kwargs)
+                ls = outs if type(outs) != tuple else outs[0]
+
+                if math.isnan(ls) :
+                    print("NAN")
+                    return [rl, sizes, mix, miloss, losses]
 
                 # print statistics
                 running_loss += ls/mini
                 miloss.append(ls)
                 mix.append(epoch + i/mini)
-                
+
             # collect statistics
             rl.append(scheduler.get_lr())
             sizes.append(cbatch_size)
             losses.append(running_loss)
-            
+
             # update learning rate
             scheduler.step()
-            
+
         return [rl, sizes, mix, miloss, losses]
