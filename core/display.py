@@ -42,8 +42,13 @@ def ecran(net, test_X, test_y, criterion, report, figsize=(15,5), classification
         axs[0].legend()
 
         axs[1].set_title('Evolution')
-        axs[1].plot(losses,label='epoch loss',color=jpcm.maps.karakurenai)
-        axs[1].scatter(mix,miloss,label='batch loss', s=1,alpha=0.5, color=jpcm.maps.chigusa_iro)
+        if len(losses.shape) > 1:
+            for i in range(losses.shape[1]):
+                axs[1].plot(losses[:,i],label=f'epoch loss {i}',color=jpcm.maps.karakurenai)
+                axs[1].scatter(mix,miloss[:, i],label=f'batch loss {i}', s=1,alpha=0.5, color=jpcm.maps.chigusa_iro)
+        else:
+            axs[1].plot(losses,label='epoch loss',color=jpcm.maps.karakurenai)
+            axs[1].scatter(mix,miloss,label='batch loss', s=1,alpha=0.5, color=jpcm.maps.chigusa_iro)
         axs[1].set_xlabel('epochs')
         axs[1].set_ylabel('loss')
         axs[1].legend()

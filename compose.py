@@ -4,7 +4,7 @@ path = sys.argv[1] if len(sys.argv)>1 else 'FFA/memo'
 c = os.getcwd()
 d = f'{path}/code/'
 e = f'{d}/../out'
-p = f'{d}/../plots'
+p = f'{path}/plots'
 
 code = importlib.import_module(f'{d}code'.replace('../','..').replace('/','.'),package='PHO_ICES_ML') # TODO generalize path
 
