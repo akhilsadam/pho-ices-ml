@@ -6,7 +6,7 @@ class FLLayer(nn.Linear):
     def __init__(self, in_features, out_features,fin_features, 
                  bias=True, act=nn.ReLU(), criterion=nn.MSELoss(), 
                  opt=lambda x : optim.ASGD(x, lr=0.001), 
-                 delta=1.0, k=1.0, eps= 1e-6, device=None, dtype=None):
+                 delta=1.0, k=1.0, eps= 1e-6, rl = nn.ReLU(), device=None, dtype=None):
         super().__init__(in_features, out_features, bias, device, dtype)
         self.act = act
         self.delta = delta
@@ -17,7 +17,7 @@ class FLLayer(nn.Linear):
         self.optLR = opt(self.lin.parameters())
         
         self.criterion = criterion
-        self.rl = nn.ReLU()
+        self.rl = rl
         self.eps = eps
         
     def make_sch(self,scheduler):

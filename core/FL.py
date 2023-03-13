@@ -3,7 +3,7 @@ import numpy as np
 from FLLayer import FLLayer
 
 class FL(torch.nn.Module):
-    def __init__(self, device, sizes=None, delta=None, k=None, output_size=1, opttype=None, bias=False,):
+    def __init__(self, device, sizes=None, delta=None, k=None, output_size=1, opttype=None, act=torch.nn.ReLU(), rl=torch.nn.ReLU(), bias=False,):
         if sizes is None:
             raise ValueError("sizes, delta, k must be specified as lists/iterables")
         if opttype is None:
@@ -16,7 +16,8 @@ class FL(torch.nn.Module):
 
         self.n_components = 2 # 2 losses.
 
-        self.activation = torch.nn.ReLU()
+        self.activation = act
+        self.rl = rl
         self.device = device
         
         self.layers = torch.nn.ModuleList([
@@ -28,11 +29,12 @@ class FL(torch.nn.Module):
                 opt=opttype,
                 delta=delta[i],
                 k=k[i],
+                rl = self.rl,
                 device = self.device,
                 )
             for i in range(len(self.z)-1)])
 
-        
+        self.lossnames = ["localizer", "regression"]
 
     def train(self, x, y, minibatch_ratio=1.0, **kwargs):
         # get batch size, assumes x is of shape (nbatch, nfeatures)

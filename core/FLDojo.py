@@ -35,16 +35,21 @@ class dojo:
             
         return learning_rate_decay, batch_size
 
-    def train(self, net, train_X, train_y, **kwargs):
+    def train(self, net, train_X, train_y,test_X=None,test_y=None, test_crit=torch.nn.MSELoss(), **kwargs):
         learning_rate_decay, batch_size = self.init_rate(**kwargs)
         scheduler = lambda x : torch.optim.lr_scheduler.LambdaLR(x, lr_lambda=[learning_rate_decay,])
         net.make_sch(scheduler)
 
+        lossnames = net.lossnames if hasattr(net, 'lossnames') else None
+        test = test_X is not None and test_y is not None
+        test_freq = kwargs.get('test_freq', 0.1)
 
         losses = []
         sizes = []
         miloss = []
+        mtloss = []
         mix = []
+        mtx = []
         rl = []
         n = train_X.shape[0]
         for epoch in tqdm(range(self.epochs)): 
@@ -81,4 +86,13 @@ class dojo:
             # update learning rate
             net.sch_step()
 
-        return [np.squeeze(np.array(rl)), sizes, mix, np.array(miloss), np.array(losses)]
+            # test
+            if test:
+                it = (epoch*test_freq)
+                it -= int(it)
+                if abs(it) < 1e-19:
+                    mtx.append(epoch)
+                    mtloss.append(test_crit(net.forward(test_X), test_y).detach().cpu().numpy())
+        if test:
+            return [np.squeeze(np.array(rl)), sizes, mix, np.array(miloss), np.array(losses), lossnames, mtx, np.array(mtloss)]
+        return [np.squeeze(np.array(rl)), sizes, mix, np.array(miloss), np.array(losses), lossnames]
