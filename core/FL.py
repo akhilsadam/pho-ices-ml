@@ -3,7 +3,7 @@ import numpy as np
 from FLLayer import FLLayer
 
 class FL(torch.nn.Module):
-    def __init__(self, device, sizes=None, delta=None, k=None, output_size=1, opttype=None, act=torch.nn.ReLU(), rl=torch.nn.ReLU(), bias=False,):
+    def __init__(self, device, sizes=None, delta=None, k=None, output_size=1, opttype=None, act=torch.nn.ReLU(), crit = torch.nn.MSELoss(), rl=torch.nn.ReLU(), bias=False,):
         if sizes is None:
             raise ValueError("sizes, delta, k must be specified as lists/iterables")
         if opttype is None:
@@ -25,7 +25,7 @@ class FL(torch.nn.Module):
                 self.z[i], self.z[i+1], self.z_out,
                 bias=bias,
                 act=self.activation,
-                criterion=torch.nn.MSELoss(),
+                criterion=crit,
                 opt=opttype,
                 delta=delta[i],
                 k=k[i],
