@@ -1,5 +1,6 @@
 import torch
 import numpy as np
+from tqdm import tqdm
 from FLLayer import FLLayer
 
 class FL(torch.nn.Module):
@@ -16,7 +17,6 @@ class FL(torch.nn.Module):
 
         self.n_components = 2 # 2 losses.
 
-        self.activation = act
         self.rl = rl
         self.device = device
         
@@ -24,7 +24,7 @@ class FL(torch.nn.Module):
             FLLayer(
                 self.z[i], self.z[i+1], self.z_out,
                 bias=bias,
-                act=self.activation,
+                act=act[i] if isinstance(act, list) else act,
                 criterion=crit,
                 opt=opttype,
                 delta=delta[i],
@@ -36,8 +36,9 @@ class FL(torch.nn.Module):
 
         self.lossnames = ["localizer", "regression"]
 
-    def train(self, x, y, minibatch_ratio=1.0, **kwargs):
+    def train(self, x, y, minibatch_ratio=1.0, repeat_epochs = 1,**kwargs):
         # get batch size, assumes x is of shape (nbatch, nfeatures)
+        repeat_epochs = int(max(repeat_epochs,1))
         nbatch = x.shape[0] if len(x.shape) > 1 else 1
         
         loss = np.array([0.0]*2)
@@ -52,6 +53,9 @@ class FL(torch.nn.Module):
         m_y = [y[i*minibatch_size:(i+1)*minibatch_size] for i in range(nminibatch)]
         for layer in self.layers:
             for i in range(nminibatch):
+                if repeat_epochs > 1:
+                    for _ in tqdm(range(repeat_epochs-1)):
+                        layer.train(m_pos[i], m_neg[i], m_y[i], **kwargs)
                 m_pos[i], m_neg[i], m_y[i], local_loss, reg_loss = layer.train(m_pos[i], m_neg[i], m_y[i], **kwargs)
                 loss[0] += local_loss / nminibatch
                 loss[1] += reg_loss / nminibatch
