@@ -125,6 +125,10 @@ class FLLayer(nn.Linear):
     def passive_augment(self, x, n):
         # generate n noisy copies of x to create passive data, 
         # noise is sampled from a uniform distribution of size delta
+        
+        if n==0:
+            return x
+        
         x_aug = x.repeat(n,1)
         x_aug += torch.randn_like(x_aug)*self.delta
         return x_aug
@@ -132,6 +136,10 @@ class FLLayer(nn.Linear):
     def active_negative_augment(self, x, n):
         # generate n noisy copies of x to create active data,
         # given that the noisy copies are just outside the delta-ball of x
+        
+        if n==0:
+            return x
+        
         x_aug = x.repeat(n,1)
         noise =  torch.randn_like(x_aug)*self.delta
         direction = noise / (noise.norm(2, 1, keepdim=True) + self.eps)
