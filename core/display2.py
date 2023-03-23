@@ -87,6 +87,7 @@ def ecran(net, test_X, test_y, report=None, criterion=torch.nn.MSELoss(), figsiz
             ax.yaxis.set_ticks_position('left')
             ax.yaxis.set_label_position('left')
             ax.set_ylabel('test loss')
+            ax.set_yscale('log')
             handles.append(ax.plot(testx,testlosses,label='test loss',color=jpcm.maps.karakurenai,)[0])
             ax3.plot(testx,testlosses,label='test loss',color=jpcm.maps.karakurenai)
         
@@ -98,6 +99,7 @@ def ecran(net, test_X, test_y, report=None, criterion=torch.nn.MSELoss(), figsiz
                 ax = axs[1].twinx()
                 ax.spines.right.set_position(('axes', 1.1**i))
                 ax.set_ylabel(names[i])
+                ax.set_yscale('log')
                 handles.append(ax.plot(losses[:,i],label=f'train epoch: {names[i]}',linewidth=1,color=cs[i])[0])
                 ax.scatter(mix,miloss[:, i],label=f'train batch: {names[i]}', s=1,alpha=0.5, color=cs[i])
                 ax2.plot(losses[:,i],label=f'train epoch: {names[i]}',color=cs[i])
@@ -105,6 +107,7 @@ def ecran(net, test_X, test_y, report=None, criterion=torch.nn.MSELoss(), figsiz
             ax = axs[1].twinx()
             ax.spines.right.set_position(('axes', 1.2))
             ax.set_ylabel('train loss')
+            ax.set_yscale('log')
             handles.append(ax.plot(losses,label='train epoch',color=jpcm.maps.rurikon)[0])
             ax.scatter(mix,miloss,label='train batch', s=1,alpha=0.5, color=jpcm.maps.chigusa_iro)
             ax2.plot(losses,label='train epoch',color=jpcm.maps.rurikon)

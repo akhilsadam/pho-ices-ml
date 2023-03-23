@@ -54,7 +54,7 @@ class FL(torch.nn.Module):
         for layer in self.layers:
             for i in range(nminibatch):
                 if repeat_epochs > 1:
-                    for _ in tqdm(range(repeat_epochs-1)):
+                    for _ in (range(repeat_epochs-1)):
                         layer.train(m_pos[i], m_neg[i], m_y[i], **kwargs)
                 m_pos[i], m_neg[i], m_y[i], local_loss, reg_loss = layer.train(m_pos[i], m_neg[i], m_y[i], **kwargs)
                 loss[0] += local_loss / nminibatch
