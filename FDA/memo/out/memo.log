@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2022.11.28)  15 APR 2023 22:29
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2022.11.28)  16 APR 2023 16:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -424,9 +424,372 @@ Underfull \hbox (badness 1303) in paragraph at lines 148--149
 [4]
 File: FDA/memo/plots/fda2.pdf Graphic file (type pdf)
 <use FDA/memo/plots/fda2.pdf>
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf>
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf>
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 1>
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 1>
+ [5]
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 1>
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 1>
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 1>
+ [6]
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 2>
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 2>
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 2>
+ [7]
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 3>
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 3>
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 3>
+ [8]
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 4>
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 4>
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 4>
+ [9]
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 5>
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 5>
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 5>
+ [10]
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 6>
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 6>
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 6>
+ [11]
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 7>
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 7>
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 7>
+ [12]
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 8>
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 8>
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 8>
+ [13]
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 9>
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 9>
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 9>
+ [14]
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 10>
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 10>
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 10>
+ [15]
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 11>
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 11>
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 11>
+ [16]
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 12>
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 12>
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 12>
+ [17]
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 13>
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 13>
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 13>
+ [18]
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 14>
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 14>
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 14>
+ [19]
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 15>
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 15>
+File: ./FDA/memo/plots/data_041623/hf_lf_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/hf_lf_v2.pdf, page 15>
 
+[20]
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 1>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 1>
+ [21]
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 1>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 1>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 1>
+ [22]
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 2>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 2>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 2>
+ [23]
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 3>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 3>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 3>
+ [24]
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 4>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 4>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 4>
+ [25]
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 5>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 5>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 5>
+ [26]
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 6>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 6>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 6>
+ [27]
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 7>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 7>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 7>
+ [28]
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 8>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 8>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 8>
+ [29]
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 9>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 9>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 9>
+ [30]
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 10>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 10>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 10>
+ [31]
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 11>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 11>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 11>
+ [32]
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 12>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 12>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 12>
+ [33]
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 13>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 13>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 13>
+ [34]
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 14>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 14>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 14>
+
+[35]
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 15>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 15>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 15>
+ [36]
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 16>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 16>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 16>
+ [37]
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 17>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 17>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 17>
+ [38]
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 18>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 18>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 18>
+ [39]
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 19>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 19>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 19>
+ [40]
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 20>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 20>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 20>
+ [41]
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 21>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 21>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 21>
+ [42]
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 22>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 22>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 22>
+ [43]
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 23>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 23>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 23>
+ [44]
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 24>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 24>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 24>
+ [45]
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 25>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 25>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 25>
+ [46]
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 26>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 26>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 26>
+ [47]
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 27>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 27>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 27>
+ [48]
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 28>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 28>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 28>
+ [49]
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 29>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 29>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 29>
+
+[50]
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 30>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 30>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 30>
+ [51]
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 31>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 31>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 31>
+ [52]
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 32>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 32>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 32>
+ [53]
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 33>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 33>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 33>
+ [54]
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 34>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 34>
+File: ./FDA/memo/plots/data_041623/compare_v2.pdf Graphic file (type pdf)
+<use ./FDA/memo/plots/data_041623/compare_v2.pdf, page 34>
+ [55]
 ! Undefined control sequence.
-l.184 \float
+l.194 \float
             {
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -436,8 +799,14 @@ and I'll forget about whatever was undefined.
 
 File: ./FDA/memo/plots/srd01.jpg Graphic file (type bmp)
 <./FDA/memo/plots/srd01.jpg>
+
+Overfull \hbox (24.0pt too wide) in paragraph at lines 195--198
+[][]
+ []
+
+[56]
 ! Undefined control sequence.
-l.188 \float
+l.201 \float
             {
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -448,20 +817,11 @@ and I'll forget about whatever was undefined.
 File: ./FDA/memo/plots/datafree.jpg Graphic file (type bmp)
 <./FDA/memo/plots/datafree.jpg>
 
-Overfull \hbox (24.0pt too wide) in paragraph at lines 185--198
+Overfull \hbox (24.0pt too wide) in paragraph at lines 202--211
 [][]
  []
 
-
-Overfull \hbox (5.216pt too wide) in paragraph at lines 185--198
-[]  []
- []
-
-[5]
-Overfull \vbox (258.95349pt too high) has occurred while \output is active []
-
-
-[6]
+[57]
 
 ! LaTeX Error: \subfloat outside float.
 
@@ -469,282 +829,52 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.203 \subfloat
+l.216 \subfloat
                {
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 File: ./FDA/memo/plots/uq.jpg Graphic file (type bmp)
 <./FDA/memo/plots/uq.jpg>
-[7] [8]
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 1>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 1>
- [9]
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 1>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 1>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 1>
- [10]
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 2>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 2>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 2>
- [11]
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 3>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 3>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 3>
- [12]
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 4>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 4>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 4>
- [13]
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 5>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 5>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 5>
- [14]
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 6>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 6>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 6>
- [15]
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 7>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 7>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 7>
- [16]
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 8>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 8>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 8>
- [17]
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 9>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 9>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 9>
- [18]
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 10>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 10>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 10>
- [19]
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 11>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 11>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 11>
- [20]
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 12>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 12>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 12>
- [21]
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 13>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 13>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 13>
+[58] [59]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.237 PDF:./FDA/memo/plots/data_
+                                041523/compare.pdf
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-[22]
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 14>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 14>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 14>
- [23]
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 15>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 15>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 15>
- [24]
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 16>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 16>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 16>
- [25]
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 17>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 17>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 17>
- [26]
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 18>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 18>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 18>
- [27]
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 19>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 19>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 19>
- [28]
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 20>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 20>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 20>
- [29]
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 21>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 21>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 21>
- [30]
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 22>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 22>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 22>
- [31]
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 23>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 23>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 23>
- [32]
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 24>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 24>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 24>
- [33]
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 25>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 25>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 25>
- [34]
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 26>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 26>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 26>
- [35]
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 27>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 27>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 27>
- [36]
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 28>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 28>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 28>
+! Missing $ inserted.
+<inserted text> 
+                $
+l.238 ^^I
+         
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-[37]
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 29>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 29>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 29>
- [38]
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 30>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 30>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 30>
- [39]
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 31>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 31>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 31>
- [40]
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 32>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 32>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 32>
- [41]
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 33>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 33>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 33>
- [42]
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 34>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 34>
-File: ./FDA/memo/plots/data_041523/compare.pdf Graphic file (type pdf)
-<use ./FDA/memo/plots/data_041523/compare.pdf, page 34>
- [43]
 
-LaTeX Warning: Citation `FFA23' on page 44 undefined on input line 229.
+LaTeX Warning: Citation `FFA23' on page 60 undefined on input line 242.
 
 No file memo.bbl.
 \tf@thm=\write3
 \openout3 = `memo.thm'.
 
-[44] (FDA/memo/code//../out/memo.aux)
+[60] (FDA/memo/code//../out/memo.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 5976 strings out of 481804
- 91751 string characters out of 5937875
+ 6013 strings out of 481804
+ 94000 string characters out of 5937875
  340783 words of memory out of 5000000
- 22862 multiletter control sequences out of 15000+600000
+ 22897 multiletter control sequences out of 15000+600000
  539682 words of font info for 62 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  50i,18n,49p,273b,503s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on FDA/memo/code//../out/memo.pdf (44 pages).
+Output written on FDA/memo/code//../out/memo.pdf (60 pages).

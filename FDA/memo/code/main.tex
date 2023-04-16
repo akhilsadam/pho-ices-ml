@@ -123,19 +123,32 @@ Any convergence theorems?
 \subsection{UQ?}
 Uncertainty quantification?
 
-\subsection{Comparison with DNN}
+\subsection{Results}
 We use standard ReLU layers for the localizer and linear layers for the regressor. \ref{fig:fda} gives the following.
 PYTHON fda2
 
+(TODO - rewrite section with curated examples once the algorithm is finalized)
+
+\subsubsection{Convergence Rates at different frequencies with noisy data}
+
+\includepdf[pages=-]{./FDA/memo/plots/data_041623/hf_lf_v2.pdf}
+
+
+\subsubsection{Comparison with DNN}
+
+\includepdf[pages=-]{./FDA/memo/plots/data_041623/compare_v2.pdf}
+
 \section{Forward Decomposed PDE-Inverter (Data-Free)}
 
-TODO : from this point on, everything is just my notes! 
-Please don't read further...I will explain when we meet.
+TODO : from this point on, everything is just notes (rewrite)! 
 
 \float{
 \includegraphics[width=1.0\linewidth]{./FDA/memo/plots/srd01.jpg}
 \label{fig:srd01}
-}
+} 
+
+\newpage
+
 \float{
 \includegraphics[width=1.0\linewidth]{./FDA/memo/plots/datafree.jpg}
 \label{fig:datafree}
@@ -172,9 +185,9 @@ files affected:
 \item fl, fl2, fl3, fl4, fl5.ipynb
 \end{itemize}
 
-PDF:
+PDF:./FDA/memo/plots/data_041523/compare.pdf
 
-\includepdf[pages=-]{./FDA/memo/plots/data_041523/compare.pdf}
+% \includepdf[pages=-]{./FDA/memo/plots/data_041523/compare.pdf}
 
 \section{Acknowledgements}
 Inspired by Dr. Hinton's paper \cite{FFA23}.
