@@ -1,0 +1,233 @@
+\documentclass[12pt]{iopart}
+\usepackage{graphicx}
+%\usepackage{witharrows}
+\usepackage{extarrows}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{units}
+\usepackage{tabto}
+\usepackage{subfig}
+\usepackage{ntheorem}
+\theoremstyle{break}
+\newtheorem{prop}{Definition}[section]
+\counterwithin{equation}{section}
+\DeclareMathOperator{\E}{\mathbb{E}}
+\DeclareMathOperator{\sign}{sign}
+\newcommand*{\QEDA}{\null\nobreak\hfill\ensuremath{\diamond}}%
+\newcommand*{\QEDB}{\null\nobreak\hfill\ensuremath{\blacksquare}}%
+\newcommand*{\sfig}[2]{\begin{figure}[htpb]\centering\subfloat[#2]{\includegraphics[width=1.0\linewidth]{#1}}\end{figure}}
+\bibliographystyle{iopart-num}
+\usepackage{pdfpages}
+\begin{document}
+\date{April 2023}
+\title{Greedy Subspace Localization}
+\subtitle{(TODO: Better Title)}
+\author{Akhil Sadam$^1$, Dr.Tan Bui Thanh$^2$}
+\address{$^1$Department of Aerospace Engineering and Engineering Mechanics, UT Austin\\$^2$The Oden Institute for Computational Sciences, UT Austin}
+\ead{akhil.sadam@utexas.edu, tanbui@oden.utexas.edu}
+\begin{indented}
+\item[]April 2023
+\end{indented}
+\section{Motivation}
+\subsection{Background}
+Contrastive learning procedures commonly use out-of-distribution (OOD) samples to train classifiers, as in Dr. Hinton's recent work \cite{FFA23}.
+OOD samples are also used to train regressive models. An example would be Monte-Carlo null-space estimation for large linear systems (cite, better example?).
+	
+No regressive OOD, or \italic{negative data} approaches are done in a greedy manner, and they do not separate regression from localization (is this true ?).
+We define localization as the process of subspace generation and feature selection, and regression as the process of fitting a model to the selected features.
+	
+The following goals are met by our approach:
+\begin{itemize}
+\item Greedy Layerwise Learning 
+\item Separation of Localization and Regression
+\item OOD-based Data Augmentation for Localization
+\end{itemize}
+	
+(not sure if I should go through the FFA and motivate this work, or go directly to the architecture.)
+\subsection{FFA-styled Contrastive Learning}
+Recall Dr. Hinton's recent work \cite{FFA23}:
+\begin{description}\item
+Assume a supervised problem with $m$ labels and $t$ test samples as below.
+\begin{alignat}{2}
+\mathbf{X_{test}} = \{x_i \mid i \in 1,...,t \},\ \mathbf{Y_{labels}} = \{y_j \mid j \in 1,...,m \}
+\end{alignat}
+
+\begin{figure}[htpb]
+\centering
+
+\subfloat[Supervised FFA Architecture]{
+\includegraphics[width=0.8\linewidth]{FDA/memo/plots/ffasup}
+\label{fig:ffasup}
+}
+
+\end{figure}
+
+In prediction mode, each test sample $x_i$ is combined with every label $y_j, \forall j\in 1,...,m$. The net [Fig.~\ref{fig:ffasup}] outputs $m$ predictions of $\hat{p}(y_j \mid x_i)$.
+For a single-label classifier, the label with the highest probability is chosen.
+To classify all samples the FFA requires $m*t$ runs.
+Normalization is required after each layer to ensure that prior layer $\|a_{l-1}\|^2$ does not affect later layers.
+Training is a greedy layer-by-layer approach.
+\end{description}
+Clearly, regression is not possible with this architecture. Several adjustments will now be made to allow for regression.
+Since $y_j$ cannot be input unless each layer is to calculate an integral, we remove the direct product, and learn $y_j$ directly, removing the final sigmoid activation.
+Note the overall function of the Affine + Norm layer is to shape / localize the input space, and layer norms no longer work as a layerwise loss. 
+We replace this with a localization layer, which is a standard Affine layer with a Lipschitz loss function.
+Finally, we add regression layers, to replace the expectation, resulting in a contrastive layerwise-regression architecture, that can incorporate OOD sampling.
+\section{Base Forward Decomposition (FD) for supervised regression}
+\subsection{Architecture}
+Assume a supervised problem where the y-function is to be learnt.
+\begin{alignat}{2}
+\mathbf{D} = \{(x_i,y_i) \mid y_i = \mathbf{F_y}(x_i)\:\forall\:i \in 1,...,n \}
+\end{alignat}
+A general 3-layer implementation is shown in Figure \ref{fig:fda}.
+
+\begin{figure}[htpb]
+\centering
+
+\subfloat[Base FDA Architecture]{
+\includegraphics[width=0.8\linewidth]{FDA/memo/plots/fda}
+\label{fig:fda}
+}
+
+\end{figure}
+
+\subsection{Loss Functions and Training}
+\subsubsection{Base Localizer Loss}
+Given input, output vector spaces $X$ and $Y$, with an intermediate, localized space $Z$, we define the localizer and regressor as $L$, $R$:
+Note $F_y$ denotes the mapping to be learnt (as before).
+\begin{alignat}{2}
+L : X \rightarrow Z, R: Z \rightarrow Y, F_y : X \rightarrow Z.
+\end{alignat}
+For noise-augmented x with a variance of $\delta$, 
+\begin{alignat}{2}
+\epsilon_p \sim N(0,\delta^2)    
+\end{alignat}
+\begin{alignat}{2}
+\hat{y_{aug}} = R(z), z = L(x + \epsilon_p)
+\end{alignat}
+To localize the input space $X$ into $Z$, given an approximate Lipschitz constant, and a particular neighborhood size (a delta-ball), the following loss is used.
+Note $\sigma$ denotes the ReLU function, and $\text{MSE}$ denotes mean-squared-error.
+Both the prediction and the true y-value are lifted to a higher space by concatenation (denoted by $\oplus$) with the latent-space value $z$, so that the continuity condition imposed can work with discontinous functions.
+\begin{alignat}{2}
+\mathbf{\text{Loss}_\text{localizer}(x,y)} = \sigma(\text{MSE}(\hat{y_{aug}} \oplus z,y \oplus z) - k^2 \delta^2)
+\end{alignat}
+Note this condition follows directly from the Lipschitz continuity - that the output from the $\delta$-ball falls within the $k\delta$-ball.
+The output ball is centered at the true y-value instead of the mean, due to computational ease; this also serves as a MSE addition.
+	
+\subsubsection{OOD Data Augmentation}
+(TODO remove colloquial language)
+To allow for contrastive learning, and accurately learn the `nullspace', or space not data-driven, negative-data is generated as follows:
+\begin{alignat}{2}
+x_n = x + \epsilon_n
+\end{alignat}
+\begin{alignat}{2}
+\|\epsilon_n\| = \delta + \epsilon_{\text{machine-precision}}, \text{in random direction}
+\end{alignat}
+	
+This negative data allows an additional localizer loss component:
+\begin{alignat}{2}
+\mathbf{\text{Loss}_\text{localizer-negative}(x_n,y)} = \sigma( - \text{MSE}(\hat{y_{aug}} \oplus z,y \oplus z) + k^2 \delta^2)
+\end{alignat}
+	
+\subsubsection{Variance Expansion Loss (TODO)}
+Greatly limited function behavior has been accounted for. For example, a maximum-variance expansion like PCA would be useful in some cases.
+If neighbors in $Y$-space are considered, their set diameter in $Z$-space denoted $D$, the following results for some fixed $y \in Y$:
+\begin{alignat}{2}
+\mathbf{D} = \text{diam} (L(f^{-1}_y(N_\varepsilon(y))))
+\end{alignat}
+\float{
+\includegraphics[width=1.0\linewidth]{./FDA/memo/plots/functionbehavior.jpg}
+\label{fig:functionbehavior}
+	}
+(TODO need another picture for X,Y,Z relationship with delta,epsilon-balls)
+(TODO replace photo, change A to Z)
+(TODO add loss for variance-expansion)
+(TODO rewrite with more text)
+	
+\subsubsection{Regressor Loss}
+On the regression side, a straightforward MSE loss is implemented.
+\begin{alignat}{2}
+\mathbf{\text{Loss}_\text{regressor}(x,y)} = \text{MSE}(\hat{y_{aug}},y)
+\end{alignat}
+	
+\subsubsection{Layerwise Training}
+Notice the above deals with a single layer. Several layers can be stacked and trained in a greedy fashion, by freezing prior weights and learning the residual.
+	
+\subsubsection{Complete Algorithm}
+(TODO rewrite above in a algorithm form)
+	
+\subsection{Theorems?}
+Note this method is similar to ResNet, so can we avoid gradient issues?
+Any convergence theorems?
+\subsection{UQ?}
+Uncertainty quantification?
+	
+\subsection{Comparison with DNN}
+We use standard ReLU layers for the localizer and linear layers for the regressor. \ref{fig:fda} gives the following.
+
+\begin{figure}[htpb]
+\centering
+
+\subfloat[Base FDA Architecture]{
+\includegraphics[width=0.8\linewidth]{FDA/memo/plots/fda2}
+\label{fig:fda2}
+}
+
+\end{figure}
+
+	
+\section{Forward Decomposed PDE-Inverter (Data-Free)}
+	
+TODO : from this point on, everything is just my notes! 
+Please don't read further...I will explain when we meet.
+	
+\float{
+\includegraphics[width=1.0\linewidth]{./FDA/memo/plots/srd01.jpg}
+\label{fig:srd01}
+	}
+\float{
+\includegraphics[width=1.0\linewidth]{./FDA/memo/plots/datafree.jpg}
+\label{fig:datafree}
+	}
+- Use FD to learn a T-Net (autoencoder), with a generative FD variant for the forward pass.
+- Goal is low-data semi/un-supervised learning, with OOD-based data augmentation.
+- Test on wafer scratch/defect detection?
+- Use a good noise model in forward pass to quantify uncertainty. (do a probability analysis)
+- Use ELBO loss and possibly wavelet encoding from Paris Perdakis' work to make it resolution-independent.
+- Use fractal theory to learn fracture patterns in materials.
+	
+\section{Forward Decomposed PDE-GAE (generative autoencoder)}
+- Now move to semi-sup PDE learning
+	
+\section{PDE-UQ}
+\subfloat{
+\includegraphics[width=1.0\linewidth]{./FDA/memo/plots/uq.jpg}
+\label{fig:uq}
+	}
+	
+\section{Appendix}
+% \sfig{FFA/memo/plots/DNN}{DNN Baseline}
+\subsection{PAST DATA WITH ERRORS!}
+\subsubsection{data 041523}
+Known ERRORS:
+\begin{itemize}
+	    \item Localizer loss had $k\delta$ instead of $k^2 \delta^2$. 
+\end{itemize}
+files affected:
+	
+\begin{itemize}
+\item compare.ipynb
+\item fl greedy, fl sine, fl stability.ipynb
+\item fl, fl2, fl3, fl4, fl5.ipynb
+\end{itemize}
+	
+PDF:
+	
+\includepdf[pages=-]{./FDA/memo/plots/data_041523/compare.pdf}
+	
+\section{Acknowledgements}
+Inspired by Dr. Hinton's paper \cite{FFA23}.
+This work follows from a discussion with Mr. C G Krishnanunni and Mr. Wesley Lao.
+\section{References}
+\bibliography{References}
+\end{document}

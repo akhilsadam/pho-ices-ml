@@ -1,5 +1,5 @@
 import numpy as np
-import sakuzu as skz
+import sakuzu as skz # version 0.0.19
 from jpcm import maps
 from matplotlib.transforms import Bbox
 import matplotlib.pyplot as plt

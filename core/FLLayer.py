@@ -99,8 +99,8 @@ class FLLayer(nn.Linear):
         lifted_y_n = torch.concat([y_rptn,xin_n_2], dim=1)  
 
         # train Forward Localizer (FL) layer
-        vp = self.criterion(lifted_y_hat_p,lifted_y_p) - self.k*self.delta
-        vn = self.k*self.delta - self.criterion(lifted_y_hat_n,lifted_y_n)
+        vp = self.criterion(lifted_y_hat_p,lifted_y_p) - (self.k**2)*(self.delta**2)
+        vn = (self.k**2)*(self.delta**2) - self.criterion(lifted_y_hat_n,lifted_y_n)
 
         loss1 = self.rl(vp) + self.rl(vn)
         lossFL = self._update(self.optFL, loss1)
