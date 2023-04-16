@@ -13,10 +13,15 @@ def make_patch_spines_invisible(ax):
     for sp in ax.spines.values():
         sp.set_visible(False)
 
-def ecran(net, test_X, test_y, report=None, criterion=torch.nn.MSELoss(), figsize=(21,7), classification=False):
+def ecran(net, test_X, test_y, report=None, criterion=torch.nn.MSELoss(), figsize=(21,7), classification=False,subfig=plt):
     
-    fig, axs = plt.subplots(1,3 if classification else 2,figsize=figsize, width_ratios=[1,2,2] if classification else [1,2])
-    plt.subplots_adjust(wspace=0.2)
+    kwargs = {'figsize':figsize} if subfig is plt else {}
+    items = subfig.subplots(1,3 if classification else 2, width_ratios=[1,2,2] if classification else [1,2],**kwargs)
+    if subfig is not plt:
+        axs = items
+    else:
+        fig, axs = items
+    subfig.subplots_adjust(wspace=0.2)
     
     try:
         outputs = net(test_X)
@@ -125,6 +130,7 @@ def ecran(net, test_X, test_y, report=None, criterion=torch.nn.MSELoss(), figsiz
         axs[1].set_yticks([])
         axs[1].set_xlabel('epochs (skipping first 10)')
         axs[1].legend(handles = handles)
-
-    plt.show()
-    plt.close()
+        
+    if subfig is plt:
+        plt.show()
+        plt.close()
