@@ -27,6 +27,20 @@ class DNN(torch.nn.Module):
                 )
             for i in range(len(self.z)-1)])
         
+        if "initializers" in kwargs:
+            initializers = kwargs["initializers"]
+            for (layer, init_func) in zip(self.layers,initializers):
+                init_func(layer.weight)
+        if bias and "bias_initializers" in kwargs:
+            binitializers = kwargs["bias_initializers"]
+            for (layer, init_func) in zip(self.layers,binitializers):
+                init_func(layer.bias)
+        
+        if 'clip' in kwargs and isinstance(kwargs['clip'], float):
+            self.clip = kwargs['clip']
+        else:
+            self.clip = None
+        
         self.optimizer = opttype(self.parameters())
 
         self.lossnames = ["regression"]
@@ -51,6 +65,10 @@ class DNN(torch.nn.Module):
                 self.optimizer.zero_grad()
                 qloss += closs.item()
                 closs.backward()
+                
+                if self.clip is not None:
+                    torch.nn.utils.clip_grad_norm_(self.parameters(), self.clip)
+                
                 self.optimizer.step()
                 
             loss.append(qloss / (nminibatch*repeat_epochs))

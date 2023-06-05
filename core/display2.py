@@ -64,7 +64,7 @@ def ecran(net, test_X, test_y, report=None, criterion=torch.nn.MSELoss(), figsiz
             raise('report is not the right length')           
             
         
-        n = len(losses.shape)
+        n = 1 if isinstance(losses, list) else len(losses.shape)
         nc = round(1.5*n+0.4)
         cs = jpcm.get('sky').resampled(nc).colors[:n]
         
@@ -96,7 +96,7 @@ def ecran(net, test_X, test_y, report=None, criterion=torch.nn.MSELoss(), figsiz
             handles.append(ax.plot(testx,testlosses,label='test loss',color=jpcm.maps.karakurenai,)[0])
             ax3.plot(testx,testlosses,label='test loss',color=jpcm.maps.karakurenai)
         
-        if len(losses.shape) > 1:
+        if n > 1:
             names = lossnames if lossnames is not None else [f'loss {i}' for i in range(losses.shape[1])]
             for i in range(losses.shape[1]):
                 # reverse order
